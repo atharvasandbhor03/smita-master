@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test" parallel="classes" >
+    <classes> 
+      <class name="testng_basic.progr_11_threadpoolsize_parllel__threadcount_with_class_amazon"/>
+      <class name="testng_basic.progr_11_threadpoolsize_parllel_threadcount_with_class_face"/>
+      <class name="testng_basic.progr_11_threadpoolsize_parllel_threadcount_with_class_insta"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,10 @@
+{
+"name":"Priyanka",
+"salary":20000,
+"BE":true,
+"Address":null,
+"Depart":{
+		"Dept":"IT"
+		},
+"Stream":[{"IT":true},{"CS":false}]
+}

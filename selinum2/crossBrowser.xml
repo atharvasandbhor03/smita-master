@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng_basic.progr_13_crossBrowser_External_ip_xml"/>
+    <parameter name="browserName" value="CHROME"></parameter>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testng_basic.progr_13_crossBrowser_External_ip_xml"/>
+    <parameter name="browserName" value="FIREFOX"></parameter>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test2">
+    <classes>
+      <class name="testng_basic.progr_13_crossBrowser_External_ip_xml"/>
+    <parameter name="browserName" value="EDGE"></parameter>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
