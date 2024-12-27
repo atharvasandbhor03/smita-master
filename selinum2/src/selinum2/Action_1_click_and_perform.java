@@ -12,6 +12,8 @@ public class Action_1_click_and_perform {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		//new line added
+		
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
